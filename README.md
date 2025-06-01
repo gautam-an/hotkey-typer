@@ -1,7 +1,3 @@
-# hotkey-typer
-a simple script to type predefined text using a customizable hotkey combination
-
-
 # Hotkey Typer
 
 *A straightforward script that lets you instantly type predefined text snippets using a customizable hotkey.*
@@ -27,7 +23,7 @@ pip install pyautogui pynput
 
 ### Customization
 
-Open the script file.
+Open the `script.py` file.
 
 **Change the Text:** Modify the `TEXT_TO_TYPE` variable:
 
@@ -46,7 +42,7 @@ HOTKEY = {keyboard.Key.ctrl, keyboard.Key.alt, keyboard.KeyCode(char='a')}
 Execute the script:
 
 ```bash
-python your_script_name.py
+python script.py
 ```
 
 ### Activate
